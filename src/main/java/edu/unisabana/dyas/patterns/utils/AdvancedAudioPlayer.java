@@ -1,16 +1,8 @@
-package main.java.edu.unisabana.dyas.patterns.utils;
+package edu.unisabana.dyas.patterns.utils;
 
-// Clase que implementa una interfaz diferente
+// Clase de reproductor de audio avanzado
 public class AdvancedAudioPlayer {
-    public void playMp4(String fileName) {
-        System.out.println("Reproduciendo archivo MP4: " + fileName);
-    }
-
-    public void playVlc(String fileName) {
-        System.out.println("Reproduciendo archivo VLC: " + fileName);
-    }
-
-    public void stop() {
-        System.out.println("Deteniendo reproducción");
+    public void playAdvanced(String audioType, String fileName){
+        System.out.println("Reproduciendo: " + fileName + "\n Formato: "+ audioType );
     }
 }
